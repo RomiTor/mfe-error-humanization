@@ -1,0 +1,39 @@
+{
+  "name": "mfe-error-humanization",
+  "private": true,
+  "version": "1.0.0-alpha.0",
+  "description": "Error Humanization",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "sonar": "npx sonar-scanner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.agile.bns/scm/kcie/mfe-error-humanization.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas-core-react": "^12.7.3",
+    "classnames": "^2.3.2",
+    "lib-error-humanization": "^1.0.6",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "styled-components": "^5.3.6"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/styled-components": "^5.1.26",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
+  },
+  "engines": {
+    "node": "^16.13.2"
+  }
+}
